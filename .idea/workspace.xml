@@ -1,20 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="15ec96b4-7c13-48ec-a73f-08e2488e28d8" name="Changes" comment="" />
+    <list default="true" id="15ec96b4-7c13-48ec-a73f-08e2488e28d8" name="Changes" comment="Update the System:&#10;&#10;create serializers.py to allow the app to interact with users to do CRUD operations using REST API&#10;&#10;Also, making authentication token to securely send and request data.&#10;&#10;&#10;note: the school system has been tested in Postman and everything is working correctly.">
+      <change afterPath="$PROJECT_DIR$/school_system/school_app/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/school_system/school_app/templates/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/school_system/school_app/templates/registration/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/school_system/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/school_system/school_app/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/school_system/school_app/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/school_system/school_app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/school_system/school_app/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/school_system/school_app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/school_system/school_app/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/school_system/school_app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/school_system/school_app/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/school_system/school_system/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/school_system/school_system/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/school_system/school_system/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/school_system/school_system/urls.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;D7oMxB52&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/D7oMxB52/School_System.git&quot;,
+    &quot;accountId&quot;: &quot;799c00b1-3837-436b-bf6b-df0891942633&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2jaHyOUjX0KQEdgr0bwiiI8bTQ0" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/devab/PycharmProjects/school_system/school_system&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\devab\PycharmProjects\school_system\school_system" />
+      <recent name="C:\Users\devab\PycharmProjects\school_system\school_system\school_app\templates" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\devab\PycharmProjects\school_system\school_system\school_app\templates" />
+    </key>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -32,6 +88,37 @@
       <option name="presentableId" value="Default" />
       <updated>1721618520538</updated>
     </task>
+    <task id="LOCAL-00001" summary="creating urls.py">
+      <option name="closed" value="true" />
+      <created>1721619006036</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1721619006036</updated>
+    </task>
+    <task id="LOCAL-00002" summary="creating Models:&#10;&#10;Student, Teacher, Staff, Course, Attendance, Grade, and Activity">
+      <option name="closed" value="true" />
+      <created>1721620860534</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1721620860534</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Update the System:&#10;&#10;create serializers.py to allow the app to interact with users to do CRUD operations using REST API&#10;&#10;Also, making authentication token to securely send and request data.&#10;&#10;&#10;note: the school system has been tested in Postman and everything is working correctly.">
+      <option name="closed" value="true" />
+      <created>1721634919122</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1721634919122</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="creating urls.py" />
+    <MESSAGE value="creating Models:&#10;&#10;Student, Teacher, Staff, Course, Attendance, Grade, and Activity" />
+    <MESSAGE value="Update the System:&#10;&#10;create serializers.py to allow the app to interact with users to do CRUD operations using REST API&#10;&#10;Also, making authentication token to securely send and request data.&#10;&#10;&#10;note: the school system has been tested in Postman and everything is working correctly." />
+    <option name="LAST_COMMIT_MESSAGE" value="Update the System:&#10;&#10;create serializers.py to allow the app to interact with users to do CRUD operations using REST API&#10;&#10;Also, making authentication token to securely send and request data.&#10;&#10;&#10;note: the school system has been tested in Postman and everything is working correctly." />
   </component>
 </project>

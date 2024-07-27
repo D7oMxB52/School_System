@@ -1,6 +1,9 @@
 from django.urls import path, include
 from rest_framework.routers import DefaultRouter
-from .views import StudentViewSet, TeacherViewSet, StaffViewSet, CourseViewSet, AttendanceViewSet, GradeViewSet, ActivityViewSet
+from .views import StudentViewSet, TeacherViewSet, StaffViewSet, CourseViewSet, AttendanceViewSet, GradeViewSet, \
+    ActivityViewSet, RegisterView, LoginView, LogoutView
+from .views import register
+from django.contrib.auth import views as auth_views
 
 router = DefaultRouter()
 router.register(r'students', StudentViewSet)
@@ -13,4 +16,7 @@ router.register(r'activities', ActivityViewSet)
 
 urlpatterns = [
     path('api/', include(router.urls)),
+    path('register/', RegisterView.as_view(), name='register'),
+    path('login/', LoginView.as_view(), name='login'),
+    path('logout/', LogoutView.as_view(), name='logout'),
 ]
